@@ -3,7 +3,7 @@
 基于 https://github.com/huankong-team/node-napcat-ts 仓库的修改，增加支持 CommonJS 方式调用，兼容NestJS等框架的使用
 
 [![npm version](https://badge.fury.io/js/your-package-name.svg)](https://www.npmjs.com/package/your-package-name)
-[![GitHub license](https://img.shields.io/github/license/yourusername/my-package)](https://github.com/yourusername/my-package)
+[![GitHub license](https://img.shields.io/github/license/yourusername/my-package)](https://github.com/codkeep/node-napcat-ts)
 
 ## 😎 介绍
 
