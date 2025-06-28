@@ -3,7 +3,7 @@
 基于 https://github.com/huankong-team/node-napcat-ts 仓库的修改，增加支持 CommonJS 方式调用，兼容NestJS等框架的使用
 
 [![npm version](https://badge.fury.io/js/your-package-name.svg)](https://www.npmjs.com/package/your-package-name)
-[![GitHub license](https://img.shields.io/github/license/yourusername/my-package)](https://github.com/codkeep/node-napcat-ts)
+[![GitHub license](https://img.shields.io/github/license/codkeep/napcat-ts-sdk)](https://github.com/codkeep/napcat-ts-sdk)
 
 ## 😎 介绍
 
@@ -14,7 +14,7 @@
 ## 📦 安装
 
 ```bash
-npm install node-napcat-ts
+npm install napcat-ts-sdk
 ```
 
 ## 🚀 使用
@@ -22,7 +22,7 @@ npm install node-napcat-ts
 ### CommonJS (推荐)
 
 ```javascript
-const { NCWebsocket, Structs } = require('node-napcat-ts');
+const { NCWebsocket, Structs } = require('napcat-ts-sdk');
 
 // 创建WebSocket连接
 const ws = new NCWebsocket({
@@ -51,7 +51,7 @@ await ws.send_private_msg({
 ### ESM
 
 ```javascript
-import { NCWebsocket, Structs } from 'node-napcat-ts';
+import { NCWebsocket, Structs } from 'napcat-ts-sdk';
 
 // 使用方式同上
 ```
@@ -59,7 +59,7 @@ import { NCWebsocket, Structs } from 'node-napcat-ts';
 ## 📚 文档
 
 - [napcat 文档](https://napneko.github.io/) <= 遇到问题先看我
-- [node-napcat-ts 文档](https://node-napcat-ts.huankong.top) <= 使用前先看我
+- [napcat-ts-sdk 文档](https://node-napcat-ts.huankong.top) <= 使用前先看我
 - [go-cqhttp 文档](https://docs.go-cqhttp.org/)
 - [onebot11 文档](https://github.com/botuniverse/onebot-11/)
 
@@ -69,4 +69,4 @@ import { NCWebsocket, Structs } from 'node-napcat-ts';
 
 ## ⭐ 星星
 
-[![Stargazers over time](https://starchart.cc/codkeep/node-napcat-ts.svg)](https://starchart.cc/codkeep/node-napcat-ts)
+[![Stargazers over time](https://starchart.cc/codkeep/napcat-ts-sdk.svg)](https://starchart.cc/codkeep/napcat-ts-sdk)

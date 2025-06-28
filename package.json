@@ -17,8 +17,8 @@
     "napcat"
   ],
   "author": {
-    "name": "huankong233",
-    "url": "https://github.com/huankong233"
+    "name": "codkeep",
+    "url": "https://github.com/codkeep"
   },
   "contributors": [
     {
@@ -36,7 +36,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huankong233/node-napcat-ts.git"
+    "url": "git+https://github.com/codkeep/napcat-ts-sdk.git"
   },
   "scripts": {
     "build": "tsc",
