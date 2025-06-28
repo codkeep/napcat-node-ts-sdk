@@ -66,4 +66,4 @@ import { NCWebsocket, Structs } from 'node-napcat-ts';
 
 ## ⭐ 星星
 
-[![Stargazers over time](https://starchart.cc/huankong233/node-napcat-ts.svg)](https://starchart.cc/huankong233/node-napcat-ts)
+[![Stargazers over time](https://starchart.cc/codkeep/node-napcat-ts.svg)](https://starchart.cc/codkeep/node-napcat-ts)
