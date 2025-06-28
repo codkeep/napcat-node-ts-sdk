@@ -1,17 +1,18 @@
-import {
+import type {
+  AllHandlers,
   EventHandleMap,
   EventKey,
   HandlerResMap,
-  type MessageHandler,
-  type MessageSentHandler,
-  type MetaEventHandler,
-  type NoticeHandler,
-  type RequestHandler,
-  type WSReceiveHandler,
-} from './Interfaces.js'
-import type { NCWebsocketBase } from './NCWebsocketBase.js'
-import type { SendMessageSegment } from './Structs.js'
-import { logger } from './Utils.js'
+  MessageHandler,
+  MessageSentHandler,
+  MetaEventHandler,
+  NoticeHandler,
+  RequestHandler,
+  WSReceiveHandler,
+} from './Interfaces'
+import type { NCWebsocketBase } from './NCWebsocketBase'
+import type { SendMessageSegment } from './Structs'
+import { logger } from './Utils'
 
 export class NCEventBus {
   #events = new Map<EventKey, EventHandleMap[EventKey][]>()

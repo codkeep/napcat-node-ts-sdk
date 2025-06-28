@@ -1,5 +1,5 @@
 import 'dotenv/config'
-import { NCWebsocket, NCWebsocketOptions, Structs, type WSSendParam } from '../src/index.js'
+import { NCWebsocket, NCWebsocketOptions, Structs, type WSSendParam } from '../src/index'
 
 const WsConfig: NCWebsocketOptions = {
   protocol: 'ws',

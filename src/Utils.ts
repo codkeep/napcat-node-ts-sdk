@@ -1,4 +1,4 @@
-import type { UnSafeStruct } from './Structs.js'
+import type { UnSafeStruct } from './Structs'
 
 export const logger = {
   warn: (...args: any[]) => {

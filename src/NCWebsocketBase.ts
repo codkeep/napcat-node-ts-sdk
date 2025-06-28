@@ -1,8 +1,8 @@
 import WebSocket, { type Data } from 'isomorphic-ws'
 import { nanoid } from 'nanoid'
-import type { AllHandlers, APIRequest, EventHandleMap, EventKey, NCWebsocketOptions, ResponseHandler, WSReconnection, WSSendParam, WSSendReturn } from './Interfaces.js'
-import { NCEventBus } from './NCEventBus.js'
-import { convertCQCodeToJSON, CQCodeDecode, logger } from './Utils.js'
+import type { AllHandlers, APIRequest, EventHandleMap, EventKey, NCWebsocketOptions, ResponseHandler, WSReconnection, WSSendParam, WSSendReturn } from './Interfaces'
+import { NCEventBus } from './NCEventBus'
+import { convertCQCodeToJSON, CQCodeDecode, logger } from './Utils'
 
 export class NCWebsocketBase {
   #debug: boolean

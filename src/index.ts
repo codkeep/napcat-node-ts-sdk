@@ -1,5 +1,5 @@
-export { NCWebsocketApi as NCWebsocket } from './NCWebsocketApi.js'
+export { NCWebsocketApi as NCWebsocket } from './NCWebsocketApi'
 
-export * from './Interfaces.js'
-export * from './Structs.js'
-export * from './Utils.js'
+export * from './Interfaces'
+export * from './Structs'
+export * from './Utils'

@@ -1,5 +1,5 @@
-import type { WSSendParam } from './Interfaces.js'
-import { NCWebsocketBase } from './NCWebsocketBase.js'
+import type { WSSendParam } from './Interfaces'
+import { NCWebsocketBase } from './NCWebsocketBase'
 
 export class NCWebsocketApi extends NCWebsocketBase {
   /**

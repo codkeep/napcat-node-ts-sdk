@@ -1,4 +1,4 @@
-import { NodeSegment, Receive, SendMessageSegment } from './Structs.js'
+import { NodeSegment, Receive, SendMessageSegment } from './Structs'
 
 export interface NCWebsocketOptionsBaseUrl {
   baseUrl: string
